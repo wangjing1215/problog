@@ -12,4 +12,11 @@ class Article(models.Model):
 
     def __unicode__(self):
         return self.title
+class User(models.Model):
+    name = models.CharField(u'name', max_length=256)
+    password = models.TextField(u'password')
+
+    def __unicode__(self):
+        return self.name
+
 

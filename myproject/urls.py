@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from . import testdb, view, search
+from . import testdb, view, search, logon
+from blog import views
 
 urlpatterns = [
     url(r'^$', view.hello),
@@ -25,4 +26,8 @@ urlpatterns = [
     url(r'^search-form$', search.search_form),
     url(r'^search$', search.search),
     url(r'^post$', search.search_post),
+    url(r'^logon$', logon.logon),
+    url(r'^signin$', logon.signin),
+    url(r'^hello$', views.blog_index),
+
 ]
