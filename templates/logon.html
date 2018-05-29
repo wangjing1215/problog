@@ -7,10 +7,10 @@
 <body>
     <form action="/logon" method="post"><br>
         {% csrf_token %}
-        <h3>{{ msg }}</h3><br>
-        username:<input type="text" name="username"><br>
-        password:<input type="text" name="password"><br>
-        <button type="submit" onclick="location.href=('/hello')">logon</button>
+        <div style="text-align:center; vertical-align:middel;"><h3>{{ msg }}</h3></div><br>
+        <div style="text-align:center; vertical-align:middel;">username:<input type="text" name="username"></div><br>
+        <div style="text-align:center; vertical-align:middel;">password:<input type="text" name="password"></div><br>
+        <div style="text-align:center; vertical-align:middel;"><input type="submit" value="登录"></div><br>
     </form>
 </body>
 </html>
