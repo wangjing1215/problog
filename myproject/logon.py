@@ -24,6 +24,9 @@ def signin(request):
         if (User.objects.filter(name=request.POST['username'])):
             msg = 'this name has existed,srory!try a good one!'
             return render(request, "signup.html", {'msg':msg})
+        if request.POST['username'] in ['Username','username'] and request.POST['password']=='password':
+            msg = 'username can not be blank'
+            return render(request, "signup.html", {'msg':msg})
         adduser.password = request.POST['password']
         adduser.save()
         msg = 'sign in ok,please log on!'

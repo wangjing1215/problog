@@ -1,116 +1,59 @@
-﻿<!DOCTYPE html>
-<html>
-<head lang="en">
-<meta charset="UTF-8">
-<title>啦啦啦</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<style>
-	body{
-		background-color: blue;
-		overflow:hidden;
-	}
-	.fishbox{
-		width: 200px;
-		height: 200px;
-		/*background-color: rgba(0,0,0,0.4);*/
-		position: absolute;
-		left:0;
-		top:0;
-		animation: run 20s linear infinite;
-		animation-direction: normal;
-	}
-	.fish{
-		width: 174px;
-		height: 126px;
-		position: absolute;
-		left:35%;
-		top:0;
-		background:url(static/image/fish8.png) no-repeat left top;
-		/*transition:all 0.8s steps(8) ;*/
-		animation:active1 0.8s steps(8) infinite;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halcyon Days - An Exclusive Freebie for Codrops</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/flexslider.css" rel="stylesheet" >
+    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="static/css/queries.css" rel="stylesheet">
+    <link href="static/css/animate.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body id="top">
+        <header id="home">
+          <nav>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                  <nav class="pull">
+                    <ul class="top-nav">
+                      <li><a href="#intro">Introduction <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#features">Features <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#responsive">Responsive Design <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#portfolio">Portfolio <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#team">Team <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section class="hero" id="hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                  <h1 class="animated fadeInDown">NICE <span>DAYS</span></h1>
+                  <p class="animated fadeInUp delay-05s">poem and live </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="/logon" class="learn-more-btn">log on</a>
+                  <a href="/signin" class="learn-more-btn">sign up</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </header>
 
-	}
-	
-	.sharkbox{
-		  width: 509px;
-		  height: 270px;
-		  animation: run2 20s linear infinite;
-	}
-	.shark{
-		width: 509px;
-		height: 270px;
-		background:url(static/image/shark1.png) no-repeat;
-		animation: active2 1s steps(8) infinite;
-	}
-
-
-
-
-	@keyframes active1 {
-		0%{
-
-		}
-		100%{
-			background-position: left -1008px;
-		}
-	}
-
-	@keyframes active2 {
-		0%{
-
-		}
-		100%{
-			background-position: left -2160px;
-		}
-	}
-
-	@keyframes run {
-		0%{
-
-		}
-
-		15%{
-			transform:translate(600px,0px) rotate(45deg) ;
-		}
-
-		50%{
-			transform:translate(600px,350px) rotate(135deg) ;
-		}
-
-		75%{
-			transform:translate(50px,300px) rotate(235deg);
-		}
-
-
-		100%{
-			transform:translate(0px,0px) rotate(360deg) ;
-		}
-	}
-
-   @keyframes run2{
-		0%{
-			transform:translateX(-600px);
-		}
-
-		100%{
-			transform:translateX(2000px);
-		}
-   }
-</style>
-</head>
-<body>
-
-<div class="fishbox">
-	<div class="fish"></div>
-</div>
-<div class="sharkbox">
-	 <div class="shark"></div>
-</div>
-
-<div style="text-align:center;">
-		<p>登录：<a href="/logon" target="_blank">log on</a></p><br>
-		<p>注册：<a href="/signin" target="_blank">sign in</a></p>
-</div>
-</body>
-</html>
+      </body>
+    </html>

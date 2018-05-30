@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html>	
 <head>
-<meta charset="utf-8">
-<title>JUST DO IT </title>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="static/css/style1.css" rel='stylesheet' >
+<!--webfonts-->
+
+<!--//webfonts-->
+
 </head>
-<body style="background-color:blue;">
-    <form action="/logon" method="post"><br>
+<body>
+{% block content %}
+<form action="/logon" method="post"><br>
+{% endblock %}
         {% csrf_token %}
         <div style="text-align:center; vertical-align:middel;"><h3>{{ msg }}</h3></div><br>
-        <div style="text-align:center; vertical-align:middel;">username:<input type="text" name="username"></div><br>
-        <div style="text-align:center; vertical-align:middel;">password:<input type="password" name="password"></div><br>
-        <div style="text-align:center; vertical-align:middel;"><input type="submit" value="登录"></div><br>
-    </form>
+ <!--SIGN UP-->
+	{% block content2 %}
+ <h1>LOG ON</h1>
+	{% endblock %}
+<div class="login-form">
+	<div class="close"> </div>
+		<div class="head-info">
+			<label class="lbl-1"> </label>
+			<label class="lbl-2"> </label>
+			<label class="lbl-3"> </label>
+		</div>
+			<div class="clear"> </div>
+	<div class="avtar">
+		<img src="static/img/avtar.png" />
+	</div>
+			<form>
+					<input type="text" class="text" value="username" name="username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >
+					<div class="key">
+					<input type="password" value="password" name="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+
+						</div>
+			</form>
+	<div class="signin">
+		{% block content1 %}
+		<input type="submit" value="Login" >
+		{% endblock %}
+	</div>
+</div>
 </body>
 </html>

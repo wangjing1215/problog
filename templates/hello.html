@@ -3,14 +3,29 @@
 <head>
 <meta charset="utf-8">
 <title>JUST DO IT </title>
+    <link rel="stylesheet" type="text/css" href="static/third/styles/shCore.css">
+    <link rel="stylesheet" type="text/css" href="static/third/styles/shThemeDefault.css">
 </head>
-<body style="background-color:blue;">
+<body style="background-color:lightblue;">
     <form action="/hello" ><br>
 {% for blog in blog_list %}
     <h2>{{ blog.title }}</h2>
     <p>{{ blog.pub_date }}</p>
-    <p>{{ blog.content }}</p>
+        <p>{{blog.category}}</p>
+        {% autoescape off %}
+        <p>{{ blog.content }}</p>
+        {% endautoescape %}
 {% endfor %}
      </form>
+    </script>
+    <script type="text/javascript" src="static/third/scripts/XRegExp.js"></script>
+    <script type="text/javascript" src="static/third/scripts/shCore.js"></script>
+    <script type="text/javascript" src="static/third/scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="static/third/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="static/third/scripts/shBrushSql.js"></script>
+    <script type="text/javascript" src="static/third/scripts/shBrushPython.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all()
+    </script>
 </body>
 </html>
