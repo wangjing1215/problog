@@ -12,7 +12,7 @@ def logon(request):
     if request.POST:
         if (User.objects.filter(name=request.POST['username']).filter(password=request.POST['password'])):
             user1 = User.objects.filter(name=request.POST['username']).filter(password=request.POST['password'])
-            return HttpResponseRedirect("/hello")
+            return HttpResponseRedirect("/indexfor")
         else:
             msg = 'uesrname/password is wrong.please try again!'
             return render(request, "logon.html", {'msg':msg})

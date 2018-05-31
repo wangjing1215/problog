@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c6b13d-a189-4dbf-8a78-2c1a52b2b498" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/indexfor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexfor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/logon.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/logon.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexfor.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="indexfor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/indexfor.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-219">
@@ -64,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logon.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logon.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myproject/logon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
                 <element signature="e#25#61#0" expanded="true" />
               </folding>
@@ -195,7 +193,6 @@
         <option value="$PROJECT_DIR$/testmodel/static/cpts_174_ddb/index.html" />
         <option value="$PROJECT_DIR$/testmodel/static/css/style1.css" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
-        <option value="$PROJECT_DIR$/myproject/logon.py" />
         <option value="$PROJECT_DIR$/DjangoUeditor/urls.py" />
         <option value="$PROJECT_DIR$/myproject/view.py" />
         <option value="$PROJECT_DIR$/templates/logon.html" />
@@ -210,6 +207,7 @@
         <option value="$PROJECT_DIR$/myproject/addarctic.py" />
         <option value="$PROJECT_DIR$/testmodel/static/css/index.css" />
         <option value="$PROJECT_DIR$/templates/indexfor.html" />
+        <option value="$PROJECT_DIR$/myproject/logon.py" />
       </list>
     </option>
   </component>
@@ -640,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/logon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="36" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -677,16 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testmodel/static/images/images/auicon.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -707,6 +685,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/indexfor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
@@ -714,6 +702,16 @@
           <folding>
             <element signature="e#3573#3581#1" expanded="true" />
             <element signature="e#3638#3646#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/logon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
