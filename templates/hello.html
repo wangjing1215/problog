@@ -9,7 +9,7 @@
 <body style="background-color:lightblue;">
     <form action="/hello" ><br>
 {% for blog in blog_list %}
-    <h2>{{ blog.title }}</h2>
+        <h2>{{ blog.title }}</h2>
     <p>{{ blog.pub_date }}</p>
         <p>{{blog.category}}</p>
         {% autoescape off %}
@@ -17,6 +17,7 @@
         {% endautoescape %}
 {% endfor %}
      </form>
+    <a href="/add">写博客</a>
     </script>
     <script type="text/javascript" src="static/third/scripts/XRegExp.js"></script>
     <script type="text/javascript" src="static/third/scripts/shCore.js"></script>

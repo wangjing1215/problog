@@ -6,6 +6,8 @@ from DjangoUeditor.models import UEditorField
 class Article(models.Model):
     title = models.CharField(u'标题', max_length=256)
     category = models.CharField(u"博客标签", max_length=50, blank=True)  # 博客标签
+    jianshu = models.TextField(u"概要")
+    picture = models.TextField(u"图片地址")
     content = UEditorField(u"文章正文", height=300, width=1000, default=u'', blank=True, imagePath="uploads/blog/images/",
                            toolbars='besttome', filePath='uploads/blog/files/')
 

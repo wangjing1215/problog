@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include,url
 from django.contrib import admin
 from DjangoUeditor import urls as djud_urls
-from . import testdb, view, search, logon
+from . import testdb, view, search, logon, addarctic
 from blog import views
 from django.conf import settings
 urlpatterns = [
@@ -31,6 +31,9 @@ urlpatterns = [
     url(r'^signin$', logon.signin),
     url(r'^hello$', views.blog_index),
     url(r'^ueditor/', include(djud_urls)),
+    url(r'^add$', addarctic.add),
+    url(r'^indexfor$', views.blog_hello),
+    url(r'^eveblog/$', views.eveblog),
 ]
 if settings.DEBUG:
     from django.conf.urls.static import static
