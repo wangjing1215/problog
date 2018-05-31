@@ -2,95 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c6b13d-a189-4dbf-8a78-2c1a52b2b498" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/css/m.css" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/css/m.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/gbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/gbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/5794.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/5794.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/ad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/alipay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/alipay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/alipayimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/alipayimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/auicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/auicon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/b07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/b07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/banner01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/banner02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/banner03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bi01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bi01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bi02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bi02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bi03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bi03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bi05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bi05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/bi06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/bi06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/blank.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/blank.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/dsbz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/dsbz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/dzbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/dzbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/gzbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/gzbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/mb08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/mb08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/newsbg03.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/newsbg03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/page_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/page_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/page_time.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/page_time.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/radio1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/radio1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/radio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/radio2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/searchbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/searchbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/t01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/t01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/t02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/t02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/t03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/t03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/tbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/tbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/text01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/text01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/text02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/text02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/toppic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/toppic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/toppic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/toppic02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/v1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/v1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/v2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/wechat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/wechat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/weipayimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/weipayimg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/wx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/wx.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/zd01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/zd01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/zd02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/zd02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/images/zd03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/images/images/zd03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexfor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/conn.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/conn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/jquery-2.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/jquery.easyfader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/jquery.easyfader.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/page2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/js/scrollReveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/js/js/scrollReveal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/life.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/share.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testmodel/static/个人博客模板《More》/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/html/time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/indexfor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexfor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testmodel/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/testmodel/static/css/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexfor.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexfor.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/indexfor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="136" column="46" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="46" />
+            <state relative-caret-position="-219">
+              <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
               <folding>
                 <element signature="e#3573#3581#1" expanded="true" />
                 <element signature="e#3638#3646#1" expanded="true" />
@@ -129,8 +43,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#65#93#0" expanded="true" />
               </folding>
@@ -199,13 +113,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testmodel/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+            <state relative-caret-position="384">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auicon.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testmodel/static/images/images/auicon.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -289,8 +208,8 @@
         <option value="$PROJECT_DIR$/templates/hello.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/myproject/addarctic.py" />
-        <option value="$PROJECT_DIR$/templates/indexfor.html" />
         <option value="$PROJECT_DIR$/testmodel/static/css/index.css" />
+        <option value="$PROJECT_DIR$/templates/indexfor.html" />
       </list>
     </option>
   </component>
@@ -354,6 +273,21 @@
               <item name="testmodel" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="testmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="testmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -479,9 +413,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testmodel/static/img/hero-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/testmodel/static/img/h1-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -756,10 +687,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testmodel/static/images/images/auicon.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testmodel/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#65#93#0" expanded="true" />
           </folding>
@@ -768,19 +709,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/indexfor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="46" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="46" />
+        <state relative-caret-position="-219">
+          <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
           <folding>
             <element signature="e#3573#3581#1" expanded="true" />
             <element signature="e#3638#3646#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testmodel/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
         </state>
       </provider>
     </entry>
