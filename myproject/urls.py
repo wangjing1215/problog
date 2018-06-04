@@ -15,12 +15,33 @@ Including another URLconf
 """
 from django.conf.urls import include,url
 from django.contrib import admin
+from django.contrib.auth.models import User
+from rest_framework import serializers, viewsets, routers
 from DjangoUeditor import urls as djud_urls
 from . import testdb, view, search, logon, addarctic
 from blog import views
 from django.conf import settings
+
+
+# Serializers define the API representation.
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = User
+        fields = ('url', 'username', 'email', 'is_staff')
+
+
+# ViewSets define the view behavior.
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+
+# Routers provide a way of automatically determining the URL conf.
+router = routers.DefaultRouter()
+router.register(r'users', UserViewSet)
 urlpatterns = [
-    url(r'^$', view.hello),
+    #url(r'^$', view.hello),
+    url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
     url(r'^testdb$', testdb.testdb),
     url(r'^adddate$', testdb.adddata),
@@ -34,6 +55,7 @@ urlpatterns = [
     url(r'^add$', addarctic.add),
     url(r'^indexfor$', views.blog_hello),
     url(r'^eveblog/$', views.eveblog),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
 if settings.DEBUG:
     from django.conf.urls.static import static
