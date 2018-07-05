@@ -41,7 +41,7 @@ router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 urlpatterns = [
     #url(r'^$', view.hello),
-    url(r'^', include(router.urls)),
+    #url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
     url(r'^testdb$', testdb.testdb),
     url(r'^adddate$', testdb.adddata),
@@ -56,6 +56,7 @@ urlpatterns = [
     url(r'^indexfor$', views.blog_hello),
     url(r'^eveblog/$', views.eveblog),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^', include('rest_framework_swagger.urls')),
 ]
 if settings.DEBUG:
     from django.conf.urls.static import static
